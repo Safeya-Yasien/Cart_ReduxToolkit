@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-https://Safeya-Yasien.github.io/react-simple-ecommerce-v2
+https://Safeya-Yasien.github.io/Cart_ReduxToolkit
 
 ## Available Scripts
 
