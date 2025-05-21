@@ -1,9 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 
-import Table from "react-bootstrap/Table";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
+import { Table, Button, Container, Image } from "react-bootstrap";
 
 import { clearCart, removeFromCart, updateQuantity } from "@rtk/cart/cartSlice";
 

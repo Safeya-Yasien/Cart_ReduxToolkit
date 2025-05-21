@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Alert from "react-bootstrap/Alert";
-import Spinner from "react-bootstrap/Spinner";
+
+import { Button, Card, Container, Row, Alert, Spinner } from "react-bootstrap";
+
 import { addToCart } from "@rtk/cart/cartSlice.js";
 import { actGetProducts } from "@rtk/products/act/actGetProducts";
 

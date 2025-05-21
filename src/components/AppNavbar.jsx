@@ -1,10 +1,8 @@
-import { useSelector } from "react-redux";
-import { Link, useLocation } from "react-router-dom";
-
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
 import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useSelector } from "react-redux";
+
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 function AppNavbar() {
   const cart = useSelector((state) => state.cart);
